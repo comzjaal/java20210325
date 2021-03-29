@@ -14,16 +14,16 @@ public class A02IncDec {
 		x--;
 		System.out.println(x);
 		
-		///////////////
-		// 연산자 앞에 있을 때
+		/////////////////
+		// 연산자가 앞에 있을 때
 		++x;
 		System.out.println(x);
 		
 		int y = 5 + (++x);
 		System.out.println(y);
 		
-		////////////////
-		// 연산자가 뒤에 있을때
+		/////////////////
+		// 연산자가 뒤에 있을 때
 		System.out.println(x);
 		
 		y = 5 + (x++);
@@ -31,7 +31,6 @@ public class A02IncDec {
 		System.out.println(x);
 	}
 }
-	
 
 
 
