@@ -6,10 +6,13 @@ public class A01If {
 		
 		System.out.println("실행1");
 		
-		if (false){
+		if (false) {
 			System.out.println("실행되거나 안되거나...");
 		}
 		
+		
 		System.out.println("실행2");
+		
+		
 	}
 }
