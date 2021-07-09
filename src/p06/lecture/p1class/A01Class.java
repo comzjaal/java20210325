@@ -3,8 +3,9 @@ package p06.lecture.p1class;
 public class A01Class {
 	public static void main(String[] args) {
 		// javascript에서 객체(object) 만들기
-		/* 
-		 	var obj = {name:"john", age:30, city:"seoul"};
+		/*
+			var obj = {name:"john", age:30, city:"seoul"};
+
 		 */
 		
 		// java에서 객체(object, instance) 만들기
@@ -12,5 +13,13 @@ public class A01Class {
 		String str = new String("java");
 		Student student1 = new Student();
 		Student student2 = new Student();
+		
+		
 	}
 }
+
+
+
+
+
+

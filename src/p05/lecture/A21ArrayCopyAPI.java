@@ -1,6 +1,6 @@
 package p05.lecture;
 
-import java.util.Arrays;	// 컨트롤 + 쉬프트 + o
+import java.util.Arrays;
 
 public class A21ArrayCopyAPI {
 	public static void main(String[] args) {
@@ -10,17 +10,17 @@ public class A21ArrayCopyAPI {
 		// p3 : 복사본 배열
 		// p4 : 복사본 배열의 시작 index
 		// p5 : 길이
-		
-		int[] arr1 = {9, 7, 5, 3, 1};
+
+		int[] arr1 = { 9, 7, 5, 3, 1 };
 		int[] arr2 = new int[10];
-		
+
 		// 복사전
 		System.out.println(Arrays.toString(arr1));
 		System.out.println(Arrays.toString(arr2));
-		
+
 		// 복사
-		System.arraycopy(arr1, 0, arr2, 0, 5);
-		
+		System.arraycopy(arr1, 0, arr2, 5, 5);
+
 		// 복사 후
 		System.out.println(Arrays.toString(arr1));
 		System.out.println(Arrays.toString(arr2));

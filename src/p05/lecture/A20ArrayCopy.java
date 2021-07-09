@@ -30,9 +30,14 @@ public class A20ArrayCopy {
 		// 복사 후
 		System.out.println(Arrays.toString(arr1));
 		System.out.println(Arrays.toString(arr3));
-		
+	
 		arr3[0] = 11;
 		System.out.println(Arrays.toString(arr1));
 		System.out.println(Arrays.toString(arr3));
 	}
 }
+
+
+
+
+

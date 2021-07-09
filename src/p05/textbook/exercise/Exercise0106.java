@@ -10,13 +10,14 @@ public class Exercise0106 {
 		
 		// 3번 문제:
 		// 답: 2번
-		
+
 		// 4번 문제:
+		// 답: 2번
 		int[] array;
 		array = new int[] {1, 2, 3};
 		
 		// 5번 문제:
-		// 답 : 3번 (boolean false)
+		// 답: 3번 (boolean false)
 		
 		// 6번 문제:
 		// array.length --> 3
@@ -28,3 +29,8 @@ public class Exercise0106 {
 		};
 	}
 }
+
+
+
+
+
